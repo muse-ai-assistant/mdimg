@@ -1,0 +1,14 @@
+[project]
+name = "mdimg"
+version = "1.0.0"
+description = "Localize remote images in Markdown: download to local dir and rewrite links"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+license = { text = "MIT" }
+
+[project.scripts]
+mdimg = "mdimg:main"
+
+[build-system]
+requires = ["setuptools"]
