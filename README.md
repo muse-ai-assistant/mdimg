@@ -8,6 +8,10 @@ folder and rewrite the links to relative paths. Never lose images to a dead imag
 ## Install
 
 ```bash
+pip install -r requirements.txt
+```
+
+```bash
 pip install .
 # or just run the single file:
 python mdimg.py README.md
